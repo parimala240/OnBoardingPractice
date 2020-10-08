@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.A3test.pages.LoginTest">
+        <methods>
+          <include name="user_1enters_sourceDestination_and"/>
+          <include name="close_the_browser"/>
+          <include name="title_of_login_page_is_free_CRM"/>
+          <include name="userLOgin"/>
+        </methods>
+      </class> <!-- com.A3test.pages.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
